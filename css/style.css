@@ -1,0 +1,106 @@
+/* common css css start*/
+:root{
+  
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+body {
+    background-color: aliceblue;
+  
+  
+}
+h1,
+h2 {
+  
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.container {
+  width: ;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.w-30 {
+  width: 30%;
+}
+.w-32 {
+  width: 32%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-70 {
+  width: 70%;
+}
+.w-100 {
+  width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+.d-block {
+  display: block;
+}
+ 
+/* common css css end*/
+
+/* input css start*/
+ #input_form, #odd_even_form{
+    height: 500px;
+    width: 800px;
+    background-color: aqua;
+    margin: 100px 0 0 50px;
+    padding: 0 0 0 20px;
+ }
+
+ #input_form label, #odd_even_form label{
+    font-size: 40px;
+ }
+  #input_form h1, #odd_even_form h1{
+    color: blue;
+    text-align: center;
+    padding: 40px 0 0 0 ;
+    font-size: 80px;
+  }
+
+  #input_form input, #odd_even_form input {
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    margin: 0 0 0 50px;
+  }
+
+  #input_form p, #odd_even_form p{
+    font-size: 80px;
+  }
+
+
+
+/* input css end*/
